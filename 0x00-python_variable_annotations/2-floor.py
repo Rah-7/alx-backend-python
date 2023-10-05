@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""typing a function that returns a floor of a number"""
-from math import floor
+'''Task 2's module.
+'''
 
 
-def floor(n: float) -> int:
-    """concatenation function"""
+def floor(a: float) -> int:
+    '''Computes the floor of a floating-point number.
+    '''
+    return int(a)
